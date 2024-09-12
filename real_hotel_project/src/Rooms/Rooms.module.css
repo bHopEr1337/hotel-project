@@ -1,0 +1,32 @@
+@import '@fontsource/open-sans';
+
+.root{
+    display: flex;
+    justify-content: center;
+}
+
+.roomsBlock{
+    width: 1220px;
+    padding-bottom: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Open Sans', sans-serif;
+    color: #292929;
+    /* font-weight: bold; */
+    letter-spacing: 3px;
+
+    margin-bottom: 40px;
+}
+
+.rooms{
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+}

@@ -1,0 +1,26 @@
+@import '@fontsource/merriweather';
+
+
+.root {
+    display: flex;
+
+    justify-content: center;
+}
+
+.block {
+    width: 1220px;
+    padding: 10px 0 10px;
+    background-color: #E2E2E2;
+
+    display: flex;
+    justify-content: end;
+}
+
+.block p{
+    margin-right: 35px;
+
+    font-size: 13px;
+    font-family: 'Merriweather', serif;
+    color: #828282;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,60 @@
+@import '@fontsource/merriweather';
+@import '@fontsource/open-sans';
+
+.root{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel{
+    width: 1220px;
+    background-color: #6CC3BC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 60px;
+}
+
+.buttonsBlock{
+    position: absolute;
+    right: 35px;
+    top: 55px
+}
+
+.buttonsBlock button{
+    border-radius: 50%;
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+    margin-left: 10px;
+    color: white;
+    background-color: #005868;
+}
+
+.buttonsBlock button:hover{
+    cursor: pointer;
+}
+
+.title{
+    font-size: 27px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.commentContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+    color: white;
+    letter-spacing: 1px;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+}

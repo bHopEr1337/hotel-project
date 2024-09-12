@@ -1,0 +1,46 @@
+.root {
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    width: 1220px;
+    background-color: white;
+    padding-top: 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block div{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 130px 65px 130px;
+    align-items: center;
+}
+
+.block button{
+    width: 218px;
+    height: 47px;
+    background-color: #B89F80;
+    font-size: 13px;
+    font-family: 'Merriweather', serif;
+    color: white;
+    border: none;
+    letter-spacing: 1px;
+
+    margin-top: 65px;
+}
+
+.block button:hover{
+    cursor: pointer;
+    background-color: #b89f80bc;
+}
+
+.text {
+    white-space: pre-wrap;
+    line-height: 1.5;
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
+  }

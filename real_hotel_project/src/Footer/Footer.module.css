@@ -1,0 +1,105 @@
+.root {
+    display: flex;
+
+    justify-content: center;
+}
+
+.block {
+    width: 1220px;
+    padding: 30px 0 30px;
+    background-color: #f4f4f4;
+
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1000px;
+}
+
+.imageContainer {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.imageLogo {
+    width: 200px;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: #424242;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.textContainer {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.textContainer p {
+    margin-bottom: 5px;
+
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
+    color: #7A7A7A;
+    /* letter-spacing: 1px; */
+}
+
+.textImages {
+    width: 15px;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.socialIcons {
+    display: flex;
+    margin-top: 14px;
+    justify-content: space-between;
+    gap: 10px; /* Устанавливает расстояние между элементами */
+}
+
+.socialIconContainer {
+    width: 40px;
+    height: 40px;
+    background-color: #f1f1f1;
+    border: 1px solid rgba(0, 0, 0, 0.477);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.socialIconContainer:hover {
+    background-color: #dedede;
+}
+
+.socialIcon {
+    width: 20px;
+    height: 20px;
+    display: block; /* Чтобы убрать лишние отступы вокруг изображения */
+}
+
+

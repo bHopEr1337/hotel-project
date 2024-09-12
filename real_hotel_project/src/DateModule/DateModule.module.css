@@ -1,0 +1,54 @@
+.rootBox{
+    width: 282.6px;
+    height: 48px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    
+}
+
+.picker{
+    width: 269px;
+    height: 38px;
+
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #005868;
+
+    background-color: white;
+    padding-top: 10px;
+    border: 1px solid #005868;
+    padding-left: 9px;
+    
+}
+
+.picker:hover{
+    cursor: pointer;
+}
+
+.spanText{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    position: absolute;
+    left: 10px;
+    top: 25%;
+    transform: translateY(-50%);
+
+    opacity: 0.5;
+}
+
+.calendarImg{
+    width: 25px;
+
+    position: absolute;
+    right: 10px;
+    top: 60%;
+    transform: translateY(-50%);
+
+    opacity: 0.2;
+}
+
+.noFocus:focus {
+    outline: none;
+}

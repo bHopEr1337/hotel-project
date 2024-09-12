@@ -1,0 +1,16 @@
+.root{
+    display: flex;
+    justify-content: center;
+}
+
+.block{
+    width: 1220px;
+    background-color: white;
+    padding-bottom: 80px;
+}
+
+.image{
+    width: 300px;
+    padding-top: 55px;
+    padding-left: 45px;
+}

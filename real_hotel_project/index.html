@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ddc935c1-6098-41ab-a9bd-3cc2a082bfe0&lang=ru_RU" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      ymaps.ready(init);
+function init(){
+    var myMap = new ymaps.Map("map", {
+        center: [44.39, 38.34],
+        zoom: 16
+    });
+
+    var myPlacemark = new ymaps.Placemark([44.392272, 38.342578], {
+        hintContent: 'Это метка',
+        balloonContent: 'Тут какое-то содержимое'
+    });
+
+    myMap.geoObjects.add(myPlacemark);
+}
+
+  </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+.root{
+    display: flex;
+    justify-content: center;
+}
+
+.mapContainer{
+    width: 1220px;
+    height: 352px;
+}

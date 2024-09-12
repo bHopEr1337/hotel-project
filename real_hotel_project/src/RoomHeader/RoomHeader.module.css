@@ -1,0 +1,35 @@
+@import '@fontsource/merriweather';
+
+
+.root {
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    width: 1220px;
+    padding: 50px 0 10px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.childBlock{
+    padding: 0px 60px 0px 60px;
+}
+
+.childBlock p{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: #4B4B4B;
+    letter-spacing: 3px;
+}
+
+.line{
+    background-color: rgb(183, 183, 183);
+    height: 1px;
+}
+

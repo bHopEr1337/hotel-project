@@ -1,0 +1,67 @@
+@import '@fontsource/merriweather';
+@import '@fontsource/open-sans';
+
+.root{
+    display: flex;
+    justify-content: center;
+}
+
+.aboutBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1220px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: #f3f3f3;
+}
+
+.content{
+    display: flex;
+    padding-top: 20px;
+}
+
+.textBlock{
+    width: 75%;
+    align-items: center;
+    padding-left: 35px;
+    margin-top: 0;
+
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
+}
+
+.photoButtonBlock{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 35px;
+}
+
+.photoButtonBlock img{
+    width: 255px;
+}
+
+.title{
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bookNow{
+    width: 218px;
+    height: 47px;
+    background-color: #005868;
+    font-size: 13px;
+    font-family: 'Merriweather', serif;
+    border: none;
+    color: white;
+    letter-spacing: 1px;
+    margin-right: 18.5px;
+    margin-top: 40px;
+}
+
+.bookNow:hover{
+    cursor: pointer;
+}

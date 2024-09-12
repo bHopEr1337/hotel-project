@@ -1,0 +1,43 @@
+@import "@fontsource/open-sans";
+@import "@fontsource/merriweather";
+
+.image {
+  width: 350px;
+  transition: transform 0.3s ease-in-out;
+  filter: brightness(0.9);
+}
+
+.image:hover {
+  transform: scale(1.1);
+  filter: brightness(1);
+}
+
+.description {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: #7e6648;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+
+.moreInfo {
+  font-size: 12px;
+  font-family: "Merriweather", serif;
+  font-style: italic;
+  color: #787878;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+.moreInfo span {
+  font-size: 20px;
+}
+
+.roomsContainer a {
+  text-decoration: none;
+}
+
+.roomsContainer {
+  width: 350px;
+}

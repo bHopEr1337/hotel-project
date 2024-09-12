@@ -1,0 +1,31 @@
+@import '@fontsource/open-sans';
+
+.root{
+    display: flex;
+    justify-content: center;
+}
+
+.booking{
+    display: flex;
+    flex-direction: column;
+    width: 1220px;
+    align-items: center;
+    justify-content: center;
+}
+
+.booking img{
+    height: 150px;
+    filter: brightness(0.5);
+
+    position: relative;
+}
+
+.imageText{
+    position: absolute;
+
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
